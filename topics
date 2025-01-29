@@ -1,2 +1,2 @@
-1)react-dom/virtual-dom
-
+1) react-dom/virtual-dom/reconciliation algorithm
+2) Fibre (https://github.com/acdlite/react-fiber-architecture)
