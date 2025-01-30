@@ -1,2 +1,6 @@
-1) react-dom/virtual-dom/reconciliation algorithm
-2) Fibre (https://github.com/acdlite/react-fiber-architecture)
+1. react-dom/virtual-dom/reconciliation algorithm
+2. Fibre (https://github.com/acdlite/react-fiber-architecture)
+3. useState
+4. useEffect
+5. useCallback
+6. useRef
