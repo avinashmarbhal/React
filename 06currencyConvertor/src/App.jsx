@@ -30,7 +30,7 @@ function App() {
         backgroundImage: `url('https://w0.peakpx.com/wallpaper/888/769/HD-wallpaper-bitcoin-price-analysis-12-in-sight-as-bullish-pennant-forms.jpg')`,
       }}
     >
-      <div className="w-full mt-50">
+      <div className="w-full mt-50 mb-50">
         <div className=" w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
