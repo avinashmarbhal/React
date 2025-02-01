@@ -4,3 +4,7 @@
 4. useEffect
 5. useCallback
 6. useRef
+   7.useLoaderData
+   8.react-router-dom(Link,NavLink)
+   9.createBrowserRouter
+   10.RouterProvider
