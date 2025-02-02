@@ -9,11 +9,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
-import Home from "./componants/Home/Home.jsx";
-import About from "./componants/About/About.jsx";
-import Contact from "./componants/Contact/Contact.jsx";
-import User from "./componants/User/User.jsx";
-import Youtube, { youtubeInfoLoader } from "./componants/Youtube/Youtube.jsx";
+
+import { youtubeInfoLoader } from "./componants/Youtube/Youtube.jsx";
+import { Home, About, Contact, User, Youtube } from "./componants/";   
+//if we name our file index.jsx in that case we just have to mention were the file is because the file is call automatically
+
 
 // const router = createBrowserRouter([
 //   {
