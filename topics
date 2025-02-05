@@ -7,4 +7,5 @@
    7.useLoaderData
    8.react-router-dom(Link,NavLink)
    9.createBrowserRouter
-   10.RouterProvider
+   10.RouterProvider 11. Context Api
+   12.Redux,reduxToolkit
