@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import {useDispatch} from 'react-redux'
-import {addTodo} from '../features/todo/todoSlice'
+import {useDispatch} from 'react-redux' 
+import {addTodo} from '../features/todo/todoSlice.js'
 
 function AddTodo() {
 
@@ -9,10 +9,10 @@ function AddTodo() {
 
     const addTodoHandler = (e) => {
         e.preventDefault()
+        console.log(`Input:- ${input}`);
         dispatch(addTodo(input))
         setInput('')
     }
-
 
   return (
     <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
